@@ -2,19 +2,29 @@
 
 Below are all the projects that we have worked on so far:
 
-## C Programming [Sem: I]
+<h2>C Programming [Sem: I]</h2>
 
-1. [eMatadaan](https://github.com/jarp0l/eMatadaan)
-  * Devraj Parajuli
-  * Jeevan Koiri
-  * Prajwol Pradhan
-  * Vikrant Panjiyar
+<details>
+ <summary>eMatadaan</summary>
+ Project link: <a href="https://github.com/jarp0l/eMatadaan">eMatadaan</a>
+ <ul> 
+  <li>Devraj Parajuli</li>
+  <li>Jeevan Koiri</li>
+  <li>Prajwol Pradhan</li>
+  <li>Vikrant Panjiyar</li>
+</details>
  
-2. abcd
-  * student 1
-  * student 2
+<details>
+ <summary>GitHub</summary>
+ Project link: <a href="https://github.com/">eMatadaan</a>
+ <ul> 
+  <li>Devraj Parajuli</li>
+  <li>Jeevan Koiri</li>
+  <li>Prajwol Pradhan</li>
+  <li>Vikrant Panjiyar</li>
+</details>
 
----
+<hr>
 
 ## C++ Programming [Sem: II]
 
