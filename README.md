@@ -12,6 +12,7 @@ Below are all the projects that we have worked on so far:
   <li>Jeevan Koiri</li>
   <li>Prajwol Pradhan</li>
   <li>Vikrant Panjiyar</li>
+ </ul>
 </details>
  
 <details>
@@ -22,6 +23,7 @@ Below are all the projects that we have worked on so far:
   <li>Jeevan Koiri</li>
   <li>Prajwol Pradhan</li>
   <li>Vikrant Panjiyar</li>
+ </ul>
 </details>
 
 <hr>
