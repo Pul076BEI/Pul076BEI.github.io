@@ -29,5 +29,5 @@ jobs:
       run: |
         if ! [ -d html ]; then mkdir html; fi
         for project in $(ls src); do
-          python site-generator.py < "$project" > html/"$project".html
+          python site-generator.py "$project"
         done
