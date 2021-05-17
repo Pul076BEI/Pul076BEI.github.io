@@ -2,6 +2,22 @@
 
 Below are all the projects that we have worked on so far:
 
+
+
+[C Programming Projects](./projects/c-programming-projects.md)
+
+[C++ Programming Projects](./projects/cpp-programming-projects.md)
+
+[Graphics Projects](./projects/graphics-projects.md)
+
+
+
+
+
+
+
+<hr>
+
 <h2>C Programming [Sem: I]</h2>
 
 
