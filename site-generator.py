@@ -40,12 +40,17 @@ def generate_middle(name: str, link: str, students: list) -> str:
 
 for_middle = [generate_middle(project['name'], project['link'], project['by'].values()) for project in projects.values()]
 
+
+'''
 with open("html/c-projects.html", "w") as html_file:
-    #html_file.write(initial)
     sys.stdout.write(initial)
     for each_middle in for_middle:
-        #html_file.write(each_middle)
-        sys.stdout.write(each_middle)
-    #html_file.write(final)
-    sys.stdout.write(final)
+        html_file.write(each_middle)
+    html_file.write(final)
+  '''
+ 
+sys.stdout.write(initial)
+for each_middle in for_middle:
+    sys.stdout.write(each_middle)
+sys.stdout.write(final)
  
