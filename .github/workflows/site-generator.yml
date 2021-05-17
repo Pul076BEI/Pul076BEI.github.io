@@ -36,6 +36,10 @@ jobs:
      #   for file in $(ls html); do                                                                                                            ─╯
       #    mv -f "html/$file" "html/${file//\.json\.html/.html}"
        # done
+    - name: Set author information
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
     - name: stage changed files
       run: git add .
     - name: commit changed files
