@@ -2,10 +2,7 @@
 
 import sys, json
 
-file = sys.argv[1]
-
-with open('src/'+file) as f:
-    projects = json.load(f)
+projects = json.load(sys.stdin)
 
 initial = '''
 <html>
@@ -53,4 +50,3 @@ sys.stdout.write(initial)
 for each_middle in for_middle:
     sys.stdout.write(each_middle)
 sys.stdout.write(final)
- 
