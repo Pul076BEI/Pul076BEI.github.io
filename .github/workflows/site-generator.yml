@@ -28,6 +28,6 @@ jobs:
     - name: Generate site
       run: |
         if ! [ -d html ]; then mkdir html; fi
-        for project in $(ls projects); do
+        for project in $(ls src); do
           python site-generator.py < "$project" > html/"$project".html
         done
