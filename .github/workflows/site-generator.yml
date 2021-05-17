@@ -31,11 +31,11 @@ jobs:
         for project in $(ls src); do
           python site-generator.py < src/"$project" > html/"$project".html
         done
-    - name: Rename .json.html files to .html
-      run: |
-        for file in $(ls html); do                                                                                                            ─╯
-          mv -f "html/$file" "html/${file//\.json\.html/.html}"
-        done
+    #- name: Rename .json.html files to .html
+     # run: |
+     #   for file in $(ls html); do                                                                                                            ─╯
+      #    mv -f "html/$file" "html/${file//\.json\.html/.html}"
+       # done
     - name: stage changed files
       run: git add .
     - name: commit changed files
