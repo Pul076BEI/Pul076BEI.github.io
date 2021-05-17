@@ -4,7 +4,7 @@ import sys, json
 
 file = sys.argv[1]
 
-with open(file) as f:
+with open('src/'+file) as f:
     projects = json.load(f)
 
 initial = '''
