@@ -1,5 +1,5 @@
 {
-  "Project 1": {
+  "1": {
     "name": "eMatadaan",
     "link": "https://github.com/jarp0l/eMatadaan",
     "by": {
@@ -9,8 +9,18 @@
       "4": "Vikrant Panjiyar"
     }
   },
-  "Project 2": {
+  "2": {
     "name": "Something",
+    "link": "https://github.com/jarp0l/eMatadaan",
+    "by": {
+    	"1": "Devraj Parajuli",
+     	"2": "Jeevan Koiri",
+      "3": "Prajwol Pradhan",
+      "4": "Vikrant Panjiyar"
+    }
+  },
+  "3": {
+    "name": "Another thing",
     "link": "https://github.com/jarp0l/eMatadaan",
     "by": {
     	"1": "Devraj Parajuli",
