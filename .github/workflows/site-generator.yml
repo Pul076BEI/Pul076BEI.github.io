@@ -43,8 +43,8 @@ jobs:
     - name: stage changed files
       run: git add .
     - name: commit changed files
-      run: git commit -m "Update files in html/ directory"
-    - name: Fetch from master
-      run: git fetch origin master
-    - name: Push code to master
-      run: git push origin HEAD:master
+      run: git commit -m "Update html directory"
+    - name: Fetch from main
+      run: git fetch origin main
+    - name: Push code to main
+      run: git push origin HEAD:main
